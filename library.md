@@ -6,3 +6,5 @@
 |             Laravel Activity Log             |   https://github.com/spatie/laravel-activitylog   |
 |                Laravel Tinker                |         https://github.com/laravel/tinker         |
 |                  Money PHP                   |         https://github.com/moneyphp/money         |
+|               Laravel Passport               |        https://github.com/laravel/passport        |
+|                Laravel Breeze                |         https://github.com/laravel/breeze         |

@@ -59,6 +59,7 @@ Made with <fg=green>love</> by the community. Be a part of it!
         // $this->key();
         // $this->clear();
         // $this->migrate();
+        // $this->passport();
         $this->warn('This feature will come when other libraries support PHP 8, please configure it manually!');
         $this->line(self::$template);
     }
@@ -88,6 +89,11 @@ Made with <fg=green>love</> by the community. Be a part of it!
             copy(base_path('.env.example'), base_path('.env'));
             $this->info('Environment File Created Successful.');
         }
+    }
+
+    function passport()
+    {
+        Artisan::call("passport:install");
     }
 
     function connection()
