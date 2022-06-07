@@ -9,7 +9,7 @@ on:
 
 jobs:
   laravel:
-    name: Laravel (PHP ${{ php-versions }})
+    name: Laravel
     runs-on: ubuntu-latest
     env:
       DB_DATABASE: laravel
