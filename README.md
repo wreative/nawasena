@@ -9,6 +9,8 @@
 
 ## Requirement
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e6db80ba009a459dbd75183c0f2daf84)](https://app.codacy.com/gh/wreative/nawasena?utm_source=github.com&utm_medium=referral&utm_content=wreative/nawasena&utm_campaign=Badge_Grade_Settings)
+
 - [Composer](https://getcomposer.org/).
 - [Node JS](https://nodejs.org/en/) (Optional).
 - Code editor for doing coding activities [Visual Studio Code](https://code.visualstudio.com/) or [Sublime](https://www.sublimetext.com/) or [Atom](https://atom.io/).
