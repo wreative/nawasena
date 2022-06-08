@@ -3,7 +3,7 @@
 <p align="center">
 <img alt="Laravel Version" src="https://img.shields.io/badge/Laravel%20Version-9.15.0-informational">
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/wreative/nawasena">
-<a href="https://www.codacy.com/gh/rdp77/veyaz/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=rdp77/veyaz&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/d998aaac69b646dd9c5b06c9b386db04"/></a>
+<a href="https://deepscan.io/dashboard#view=project&tid=17948&pid=21286&bid=607488"><img src="https://deepscan.io/api/teams/17948/projects/21286/branches/607488/badge/grade.svg" alt="DeepScan grade"></a>
 <a href="https://github.com/rdp77/veyaz/blob/master/LICENSE"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
