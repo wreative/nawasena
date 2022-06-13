@@ -18,4 +18,13 @@ class ExampleTest extends TestCase
 
         $response->assertStatus(200);
     }
+
+    public function test_the_application_exact_json_version()
+    {
+        $response = $this->get('/version');
+
+        $response->assertStatus(200)->assertJson([
+            'App' => config('veyaz.app_ver'),
+        ]);
+    }
 }
