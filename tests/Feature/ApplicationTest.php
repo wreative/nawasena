@@ -2,10 +2,9 @@
 
 namespace Tests\Feature;
 
-use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
-class ExampleTest extends TestCase
+class ApplicationTest extends TestCase
 {
     /**
      * A basic test example.
@@ -23,8 +22,8 @@ class ExampleTest extends TestCase
     {
         $response = $this->get('/version');
 
-        $response->assertStatus(200)->assertJson([
-            'App' => config('veyaz.app_ver'),
+        $response->assertJsonStructure([
+            'App', 'Laravel', 'PHP', 'API'
         ]);
     }
 }
