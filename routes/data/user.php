@@ -1,8 +1,11 @@
 <?php
 
+use App\Http\Controllers\Data\UserController;
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
-| API Routes
+| API Routes USER
 |--------------------------------------------------------------------------
 |
 | Here is where you can register API routes for your application. These
@@ -11,5 +14,5 @@
 |
 */
 
-require __DIR__ . '/auth.php';
-require __DIR__ . '/data/user.php';
+Route::resource('user', UserController::class)
+    ->except(['create', 'edit']);
