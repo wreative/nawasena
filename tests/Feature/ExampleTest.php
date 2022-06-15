@@ -2,9 +2,10 @@
 
 namespace Tests\Feature;
 
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
-class ApplicationTest extends TestCase
+class ExampleTest extends TestCase
 {
     /**
      * A basic test example.
@@ -16,14 +17,5 @@ class ApplicationTest extends TestCase
         $response = $this->get('/');
 
         $response->assertStatus(200);
-    }
-
-    public function test_the_application_exact_json_version()
-    {
-        $response = $this->get('/version');
-
-        $response->assertJsonStructure([
-            'App', 'Laravel', 'PHP', 'API'
-        ]);
     }
 }

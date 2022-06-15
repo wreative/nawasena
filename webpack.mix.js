@@ -11,8 +11,8 @@ const mix = require("laravel-mix");
  |
  */
 
-mix.minify("resources/css/home.css", "public/style.css")
-    .minify("resources/css/errors.css", "public/errors.css")
+mix.minify("resources/assets/css/home.css", "public/style.css")
+    .minify("resources/assets/css/errors.css", "public/errors.css")
     .version();
 
 mix.disableNotifications();

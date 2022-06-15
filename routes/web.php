@@ -17,15 +17,4 @@ Route::get('/', function () {
     return view('pages.home');
 });
 
-Route::get('/version', function () {
-    $appVersion = config('veyaz.app_ver');
-    $apiVersion = config('veyaz.api_ver');
-    $laravelVersion = app()->version();
-    $phpVersion = phpversion();
-    return [
-        'App' => $appVersion,
-        'Laravel' => $laravelVersion,
-        'PHP' => $phpVersion,
-        'API' => $apiVersion,
-    ];
-});
+require __DIR__ . '/auth.php';
