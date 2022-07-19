@@ -9,3 +9,4 @@
 |                  Money PHP                   |         https://github.com/moneyphp/money         |
 |               Laravel Passport               |        https://github.com/laravel/passport        |
 |                Laravel Breeze                |         https://github.com/laravel/breeze         |
+|               Laravel Mediable               |     https://github.com/plank/laravel-mediable     |
