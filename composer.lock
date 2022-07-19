@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "53ead973d824ec2e1f8b13cd577b1bd6",
+    "content-hash": "5a6223a9eb60665f760298e1f48bd3fd",
     "packages": [
         {
             "name": "brick/math",
@@ -6417,6 +6417,75 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "cswni/laravel-env-set-command",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cswni/laravel-env-set-command.git",
+                "reference": "2fffa02eeba750967618e316d5aeaf4265dc38a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cswni/laravel-env-set-command/zipball/2fffa02eeba750967618e316d5aeaf4265dc38a9",
+                "reference": "2fffa02eeba750967618e316d5aeaf4265dc38a9",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^7.0|^8.0|^9.0",
+                "illuminate/support": "^7.0|^8.0|^9.0",
+                "php": "^7.3|^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.5|^8.0|^9.0",
+                "roave/security-advisories": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "ImLiam\\EnvironmentSetCommand\\EnvironmentSetCommandServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ImLiam\\EnvironmentSetCommand\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Liam Hammett",
+                    "email": "liam@liamhammett.com",
+                    "homepage": "https://liamhammett.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Set a .env file variable from the command line",
+            "homepage": "https://github.com/imliam/laravel-env-set-command",
+            "keywords": [
+                "artisan",
+                "env",
+                "environment",
+                "imliam",
+                "laravel-env-set-command",
+                "variables"
+            ],
+            "support": {
+                "source": "https://github.com/cswni/laravel-env-set-command/tree/1.4.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/imliam",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-07-06T17:38:30+00:00"
+        },
         {
             "name": "doctrine/instantiator",
             "version": "1.4.1",
