@@ -184,6 +184,8 @@ return [
          * Package Service Providers...
          */
 
+        Plank\Mediable\MediableServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
@@ -208,7 +210,7 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
-        // 'ExampleClass' => App\Example\ExampleClass::class,
+        'MediaUploader' => Plank\Mediable\MediaUploaderFacade::class,
     ])->toArray(),
 
 ];

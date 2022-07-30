@@ -1,17 +1,17 @@
 {
     "name": "laravel/laravel",
     "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
-    "license": "MIT",
+    "description": "Nawasena, The Simplest Project Management Tool",
+    "keywords": ["framework", "laravel","nawasena","project management"],
+    "license": "GPL-3.0-or-later",
     "require": {
         "php": "^8.0.2",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.11",
         "laravel/passport": "^10.4",
         "laravel/telescope": "^4.9",
-        "laravel/tinker": "^2.7",
         "moneyphp/money": "^4.0",
+        "plank/laravel-mediable": "^5.6",
         "rezaamini-ir/migrator": "^1.5",
         "spatie/laravel-activitylog": "^4.5"
     },
@@ -21,7 +21,8 @@
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^6.1",
         "phpunit/phpunit": "^9.5.10",
-        "spatie/laravel-ignition": "^1.0"
+        "spatie/laravel-ignition": "^1.0",
+        "cswni/laravel-env-set-command": "^1.3"
     },
     "autoload": {
         "psr-4": {
