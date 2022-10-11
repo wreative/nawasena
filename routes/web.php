@@ -29,3 +29,4 @@ Route::get('/version', function () {
         'API' => $apiVersion,
     ];
 });
+

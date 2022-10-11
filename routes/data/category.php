@@ -1,8 +1,11 @@
 <?php
 
+use App\Http\Controllers\Data\CategoryController;
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
-| API Routes
+| API Routes USER
 |--------------------------------------------------------------------------
 |
 | Here is where you can register API routes for your application. These
@@ -11,7 +14,6 @@
 |
 */
 
-require __DIR__ . '/auth.php';
-require __DIR__ . '/data/user.php';
-require __DIR__ . '/data/items.php';
-require __DIR__ . '/data/category.php';
+Route::resource('category', CategoryController::class)->except([
+    'create', 'edit'
+]);
