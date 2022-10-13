@@ -1,8 +1,11 @@
 <?php
 
+use App\Http\Controllers\Data\ProjectController;
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
-| API Routes
+| API Routes USER
 |--------------------------------------------------------------------------
 |
 | Here is where you can register API routes for your application. These
@@ -11,8 +14,6 @@
 |
 */
 
-require __DIR__ . '/auth.php';
-require __DIR__ . '/data/user.php';
-require __DIR__ . '/data/items.php';
-require __DIR__ . '/data/category.php';
-require __DIR__ . '/data/project.php';
+Route::resource('project', ProjectController::class)->except([
+    'create', 'edit'
+]);
